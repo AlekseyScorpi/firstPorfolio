@@ -1,0 +1,307 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {	
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 80px;
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+h2{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 42px;
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+}
+#worklink{
+	color: #FF7448;
+}
+#worklink:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.header{
+	height: 350px;
+	width: 100%;
+	background-color: #A2A2A1;
+}
+.firstcolumn{
+	display: flex;
+}
+.firstblock{
+	background-color: #DEDEDE;
+	min-height: 447px;
+	margin: 150px 0px 0px 0px;
+}
+.aboutme{
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	font-size: 26px;
+	color: #271F1A;
+	padding: 80px 80px 0px 80px;
+}
+.ava{
+	background-image: url(../img/ava.png);
+	min-width: 250px;
+	min-height: 250px;
+	background-size: 250px 250px;
+	max-height: 250px;
+	margin: 100px 80px 10px 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	box-shadow: 0 0 10px;
+}
+.socblock{
+	display: flex;
+}
+#vk{
+	background-image: url(../img/vk.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 97px 97px;
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	width: 100px;
+	height: 100px;
+	margin: 0px 30px 10px 80px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px;
+}
+#tel{
+	background-image: url(../img/telegram.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	min-width: 100px;
+	min-height: 100px;
+	width: 100px;
+	height: 100px;
+	margin: 0px 30px 10px 80px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px;
+}
+#vib{
+	background-image: url(../img/viber.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 88px 88px;
+	min-width: 100px;
+	min-height: 100px;
+	width: 100px;
+	height: 100px;
+	margin: 0px 30px 10px 80px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px;
+}
+#vk:hover{
+	background-color: #9584FB;
+	cursor: pointer;
+}
+#tel:hover{
+	background-color: #7FC7FF;
+	cursor: pointer;
+}
+#vib:hover{
+	background-color: #BAB0F7;
+	cursor: pointer;
+}
+.secondblock{
+	background-color: #DEDEDE;
+	min-height: 1350px;
+	margin: 200px 0px 200px 0px;
+	height: 1px;
+	padding-bottom: 150px;
+}
+.secondcolumn{
+	min-height: 50%;
+	min-width: 800px;
+	background-color: #DEDEDE;
+	display: flex;
+}
+.workshead{
+	font-size: 48px;
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+}
+.gittext{
+	font-size: 26px;
+	color: #352301;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.thirdcolumn{
+	min-height: 30%;
+	min-width: 800px;
+	padding-bottom: 100px;
+	background-color: #DEDEDE;
+	display: flex;
+}
+.workblock{
+	margin: auto;
+	padding-top: 30px;
+	padding-left: 100px;
+	height: 45%;
+	width: 60%;
+}
+.mainfoto{
+	height: 55%;
+	width: 75%;
+	display: block;
+	margin-top: 15px;
+	border: dotted;
+	padding: 5px;
+	border-radius: 5%;
+}
+.gallery{
+	display: flex;
+	width: 75%;
+	margin-top: 10px;
+	padding: 5px;
+	border: dotted;
+	border-radius: 5%;
+}
+.minifoto{
+	height: 95%;
+	width: 95%;
+	display: inline-block;
+	margin: 5px;
+}
+.minifoto:hover{
+	cursor: pointer;
+	box-shadow: 0 0 5px;
+}
+.pt36{
+	font-size: 36px;
+	max-width: 40%;
+	margin: 5% 5% 10% 10px;
+	display: inline-block;
+	padding-top: 30px;
+}
+.footer{
+	min-height: 270px;
+	height: 270px;
+	min-width: 100%;
+	width: 100%;
+	background-color: #A2A2A1;
+	margin: 150px 0px 0px 0px;
+}
+.footerhead{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 30px 10px 10px 10px;
+	font-size: 42px;
+}
+.footsoc{
+	display: flex;
+}
+#vkfoot{
+	background-image: url(../img/vk.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	min-width: 60px;
+	min-height: 60px;
+	padding: 55px 0px 0px 70px;
+	float: left;
+	margin: 0px 20% 0px 50px;
+}
+#telfoot{
+	background-image: url(../img/telegram.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	min-width: 60px;
+	min-height: 60px;
+	padding: 55px 80px 0px 70px;
+	margin: 0px auto;
+}
+#vibfoot{
+	background-image: url(../img/viber.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 58px 58px;
+	min-width: 60px;
+	min-height: 60px;
+	padding: 55px 0px 0px 70px;
+	float: right;
+	margin: 0px 50px 0px 20%;
+}
+#cop{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 30px;
+	margin: 10px;
+}
+.pt14{
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+.pt14:hover{
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.gitlink{
+	text-decoration: none;
+	color: #FF7448;
+}
+.gitlink:hover{
+	text-decoration: underline;
+}
+.worklink{
+	color: black;
+	text-decoration: none;
+}
+.worklink:hover{
+	text-decoration: underline;
+}
