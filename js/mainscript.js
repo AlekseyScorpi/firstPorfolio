@@ -25,9 +25,6 @@ $(function(){
 	$('.socblock #vib').click(function(){
 		window.open('https://viber.click/79607254824', '_blank');
 	});
-	$('p.aboutme .ti-container').click(function(){
-		$('html,body').animate({scrollTop:$('.workshead').offset().top+"px"},{duration:1E3});
-	});
 	$('#first a').click(function(e){
 		if($('#firstimg').attr('src')!==$(this).attr('href')){
 			$('#firstimg').hide().attr('src', $(this).attr('href')).fadeIn(500);
@@ -47,3 +44,6 @@ $(function(){
 		e.preventDefault();
 	});
 });
+function clickOnText(){
+	$('html,body').animate({scrollTop:$('.workshead').offset().top+"px"},{duration:1E3});
+};
